@@ -3,19 +3,20 @@ package javaapp;
 public class Test {
     /**
 
-this keyword: alternative reference of a
-     current class object/instance.
-     1. access current class' member or method
-     m.y
-     this.member;
-     this.x;
-     2. to call current class constructor.
+1. static variable/member:
 
-     this()
-     this(args)
+     -direct access from static method
+     -static variable can access from class
+     Classname.member;
+
+2. static method
+     Classname.method();
 
 
-
+     3.static block
+     static{
+     //code
+     }
 
 
 */

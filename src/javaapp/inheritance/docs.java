@@ -16,6 +16,21 @@ public class docs {
     1. General Inheritance
     class <ChildClass> extends <ParentClass>{
     //java code
+
+
+
+
+    super keyword:
+    1. to access parent class members and methods.
+    =>super.member;
+    =>super.method();
+    2. to call parent class constructor.
+    =>super();
+
+
+
+
+
     }
 
 

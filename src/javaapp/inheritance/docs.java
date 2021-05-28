@@ -26,13 +26,26 @@ public class docs {
     =>super.method();
     2. to call parent class constructor.
     =>super();
+=================================
 
+--------Aggregation in Java---------------
 
+syntax:
+class <classname>{
+type member;
 
+<AnotherClass> obj;
 
+}
 
-    }
+class Address{
+String city,state,country;
+}
 
+class Student{
+String name;
+Address address;
+}
 
 
      */

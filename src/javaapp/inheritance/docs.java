@@ -47,6 +47,31 @@ String name;
 Address address;
 }
 
+method overloading
+==================
+eg.
+class Animal{
+    public void eat(){
+    s.o.p("eating");
+    }
+ }
+
+ class Dog extends Animal{
+    @Override  //annotation for dev information
+    public void eat(){  //override by child class method always
+    s.o.p("eating food");
+    }
+ }
+
+ class Bird extends Animal{
+    public void eat(){
+    s.o.p("eating rice");
+    }
+ }
+
+
+
+
 
      */
 }

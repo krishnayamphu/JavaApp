@@ -6,7 +6,7 @@ final class ABC{
     }
 }
 
-public class FinalKeyowrd extends ABC{
+public class FinalKeyowrd{
     final int maxAge=120;  //final variable
 
     void message(){
@@ -18,4 +18,6 @@ public class FinalKeyowrd extends ABC{
 
        // obj.maxAge=400;
     }
+
+
 }

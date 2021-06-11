@@ -5,8 +5,8 @@ public class Exceptions {
       Exceptions Handling Methods
       1. try catch block
       2. finally block
-      3.throws
-      4.throw
+      3.throws keyword
+      4.throw keyword
 
       #1 try catch
       try{
@@ -30,5 +30,30 @@ public class Exceptions {
       }catch(ExceptionType1|ExceptionType2 e){
     //
         }
-     */
+
+        ##finally block
+
+        try{
+        //statements;
+        }catch(ExceptionType e){
+        //
+        }finally{
+        //statements;
+        }
+
+
+#throws
+
+type methodName() throws Exception1, Exception2,...{
+
+//statements;
+
+}
+#throw
+throw new ExceptionType();
+
+>=18
+
+*/
+
 }

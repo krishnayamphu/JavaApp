@@ -29,6 +29,31 @@ TextField(String text, int size);
 =======================
 setBounds(int x, int y, int x1, int y1);
 
+Checkbox:
+Checkbox()
+Checkbox(String value);
+Checkbox(String value, boolean checked)
+Checkbox(String value, CheckboxGroup cbg, boolean checked)
+
+CheckBoxGroup:
+CheckBoxGroup();
+
+Choice (ComboBox/Dropdown):
+Choice();
+
+methods:
+addItem(String item);
+
+TextArea:
+TextArea()
+TextArea(String s);
+TextArea(int col, int row);
+TextArea(String s, int row, int col)
+
+List:
+List();
+
+
 
 
 

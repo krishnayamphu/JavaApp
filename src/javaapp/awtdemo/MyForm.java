@@ -1,5 +1,6 @@
 package javaapp.awtdemo;
 
+import javax.swing.*;
 import java.awt.*;
 
 public class MyForm extends Frame {
@@ -61,8 +62,7 @@ public class MyForm extends Frame {
 
         add(lblTodo);
         add(mList);
-
-    }
+        }
     public static void main(String[] args) {
         new MyForm();
     }

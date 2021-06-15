@@ -54,6 +54,14 @@ List:
 List();
 
 
+//JOptionPane
+JOptionPane.ERROR_MESSAGE
+JOptionPane.INFORMATION_MESSAGE
+JOptionPane.WARNING_MESSAGE
+
+JOptionPane.showMessageDialog(this,"message","title",JOptionPane.ERROR_MESSAGE);
+
+
 
 
 

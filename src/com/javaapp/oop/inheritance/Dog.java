@@ -1,10 +1,9 @@
-package com.javaapp.oop.inheritanc;
+package com.javaapp.oop.inheritance;
 class Animal{
     String name;
 }
 public class Dog extends Animal{
     int age;
-
     public void show() {
        name="Puppy";
        age=2;
